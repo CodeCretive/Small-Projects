@@ -1,0 +1,45 @@
+*{
+ margin: 0;
+ padding: 0;
+}
+body{
+ background-color: #99A0E5;
+}
+h1{
+ text-align: center;
+}
+input{
+ width: 5em;
+ height: 3em;
+ background-color: white;
+}
+.timer{
+ margin: auto;
+ display: flex;
+ flex-direction: column; 
+ align-items: center;
+ background-color: #171825;
+ color: white;
+ font-size: 2em;
+ width: 90vw;
+ height: 80vh;
+ gap: 1em;
+}
+.keyPad{
+ display: grid;
+ grid-template-columns: repeat(3, 1fr);
+}
+.input{
+ width: 20vw;
+ height: 20vw;
+ font-size: 3em;
+ background-color: #535461;
+ color: white;
+}
+.start{
+ border: none;
+ font-size: 1em;
+}
+.timerValue.active {
+ background-color:  lightgray;
+}
